@@ -1,9 +1,10 @@
-//functions as values
+//functions that behaves as values
 
+//Here: function multiplier
 function multiplier(factor) {
     return number => number * factor;
 }
-
+//Here: function multiplier behaves as value of twice
 let twice = multiplier(2); // multiplier is called and creates an environment in which its factor parameter is bound to 2.
 console.log(twice(5));
 //The function value it returns, which is stored in twice,remembers this environment. 
