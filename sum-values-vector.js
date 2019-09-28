@@ -1,3 +1,5 @@
+// Busca si en el vector existe una suma consecutiva de número que de mismo valor entero ingresado.
+
 // container array
 let v = [2, 3, 9, 1, 2, 3];
 

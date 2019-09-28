@@ -1,4 +1,5 @@
-let string = "holaa"
+// método repeat que retorna True si un string ingresado contiene un carácter repetido
+let string = "google"
 
 for(let i = 0; i < string.length; i++) {
     let aux = string[i]
